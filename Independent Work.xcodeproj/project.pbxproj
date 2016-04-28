@@ -15,6 +15,9 @@
 		871FFBC81CB210EB000784BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871FFBC61CB210EB000784BD /* LaunchScreen.storyboard */; };
 		871FFBD31CB210EB000784BD /* Independent_WorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871FFBD21CB210EB000784BD /* Independent_WorkTests.swift */; };
 		871FFBDE1CB210EB000784BD /* Independent_WorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871FFBDD1CB210EB000784BD /* Independent_WorkUITests.swift */; };
+		876EC6861CC49527004F51CB /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EC6851CC49527004F51CB /* FifthViewController.swift */; };
+		876EC68C1CC5FB5C004F51CB /* TranslateQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EC68B1CC5FB5C004F51CB /* TranslateQuery.swift */; };
+		87CF00541CB6DA5400634A6C /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF00531CB6DA5400634A6C /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		871FFBD91CB210EB000784BD /* Independent WorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Independent WorkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		871FFBDD1CB210EB000784BD /* Independent_WorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Independent_WorkUITests.swift; sourceTree = "<group>"; };
 		871FFBDF1CB210EB000784BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876EC6851CC49527004F51CB /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		876EC68B1CC5FB5C004F51CB /* TranslateQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TranslateQuery.swift; path = ../../../../.Trash/TranslateQuery.swift; sourceTree = "<group>"; };
+		87CF00531CB6DA5400634A6C /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,13 @@
 		871FFBBA1CB210EB000784BD /* Independent Work */ = {
 			isa = PBXGroup;
 			children = (
-				871FFBBB1CB210EB000784BD /* AppDelegate.swift */,
 				871FFBBD1CB210EB000784BD /* FirstViewController.swift */,
+				871FFBBB1CB210EB000784BD /* AppDelegate.swift */,
+				876EC68B1CC5FB5C004F51CB /* TranslateQuery.swift */,
 				871FFBBF1CB210EB000784BD /* SecondViewController.swift */,
 				871FFBC11CB210EB000784BD /* Main.storyboard */,
+				876EC6851CC49527004F51CB /* FifthViewController.swift */,
+				87CF00531CB6DA5400634A6C /* FourthViewController.swift */,
 				871FFBC41CB210EB000784BD /* Assets.xcassets */,
 				871FFBC61CB210EB000784BD /* LaunchScreen.storyboard */,
 				871FFBC91CB210EB000784BD /* Info.plist */,
@@ -262,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876EC6861CC49527004F51CB /* FifthViewController.swift in Sources */,
 				871FFBC01CB210EB000784BD /* SecondViewController.swift in Sources */,
 				871FFBBC1CB210EB000784BD /* AppDelegate.swift in Sources */,
 				871FFBBE1CB210EB000784BD /* FirstViewController.swift in Sources */,
+				87CF00541CB6DA5400634A6C /* FourthViewController.swift in Sources */,
+				876EC68C1CC5FB5C004F51CB /* TranslateQuery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Independent Work/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Princeton.Independent-Work";
@@ -417,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Independent Work/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Princeton.Independent-Work";
@@ -489,6 +503,7 @@
 				871FFBE41CB210EB000784BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		871FFBE51CB210EB000784BD /* Build configuration list for PBXNativeTarget "Independent WorkTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +512,7 @@
 				871FFBE71CB210EB000784BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		871FFBE81CB210EB000784BD /* Build configuration list for PBXNativeTarget "Independent WorkUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +521,7 @@
 				871FFBEA1CB210EB000784BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
