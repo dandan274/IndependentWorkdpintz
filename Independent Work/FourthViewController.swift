@@ -139,7 +139,6 @@ func webView(webView: WKWebView, didFinishNavigation navigation: WKNavigation!) 
         }
     }
     
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }

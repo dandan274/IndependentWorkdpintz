@@ -3,7 +3,7 @@
 //  Independent Work
 //
 //  Created by Danielle Pintz on 4/3/16.
-//  Copyright © 2016 Danielle Pintz. All rights reserved. GOOD VERSION
+//  Copyright © 2016 Danielle Pintz. All rights reserved.
 //
 
 import UIKit
@@ -38,7 +38,6 @@ class FirstViewController: UIViewController, UITableViewDelegate {
 
         NSUserDefaults.standardUserDefaults().setObject(wordList, forKey: "words")
         
-        // Do any additional setup after loading the view, typically from a nib.
         if NSUserDefaults.standardUserDefaults().objectForKey("words") != nil
         {
             wordList = NSUserDefaults.standardUserDefaults().objectForKey("words") as! [String]
@@ -70,7 +69,6 @@ class FirstViewController: UIViewController, UITableViewDelegate {
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 
