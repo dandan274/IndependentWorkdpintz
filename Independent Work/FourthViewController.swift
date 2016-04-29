@@ -59,7 +59,6 @@ class FourthViewController: UIViewController, WKNavigationDelegate {
     @IBAction func generate(sender: AnyObject) {
         let size = bestWords.count
         let random = Int(arc4random_uniform(UInt32(size)))
-        print(badWords)
         newword = bestWords[random]
         refresh()
         wordfield.text = newword

@@ -29,7 +29,6 @@ class FirstViewController: UIViewController, UITableViewDelegate {
     }
     
     override func viewDidAppear(animated: Bool) {
-        print(wordList)
         table.reloadData()
     }
 
