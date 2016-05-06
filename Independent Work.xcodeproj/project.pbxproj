@@ -16,8 +16,9 @@
 		871FFBD31CB210EB000784BD /* Independent_WorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871FFBD21CB210EB000784BD /* Independent_WorkTests.swift */; };
 		871FFBDE1CB210EB000784BD /* Independent_WorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871FFBDD1CB210EB000784BD /* Independent_WorkUITests.swift */; };
 		876EC6861CC49527004F51CB /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EC6851CC49527004F51CB /* FifthViewController.swift */; };
-		876EC68C1CC5FB5C004F51CB /* TranslateQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EC68B1CC5FB5C004F51CB /* TranslateQuery.swift */; };
+		876EC68C1CC5FB5C004F51CB /* Independent Work.xcodeproj in Sources */ = {isa = PBXBuildFile; fileRef = 876EC68B1CC5FB5C004F51CB /* Independent Work.xcodeproj */; };
 		87CF00541CB6DA5400634A6C /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF00531CB6DA5400634A6C /* FourthViewController.swift */; };
+		87FE48731CDC21D800CA2C4E /* TranslateQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FE48721CDC21D800CA2C4E /* TranslateQuery.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +54,9 @@
 		871FFBDD1CB210EB000784BD /* Independent_WorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Independent_WorkUITests.swift; sourceTree = "<group>"; };
 		871FFBDF1CB210EB000784BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		876EC6851CC49527004F51CB /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
-		876EC68B1CC5FB5C004F51CB /* TranslateQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TranslateQuery.swift; path = ../../../../.Trash/TranslateQuery.swift; sourceTree = "<group>"; };
+		876EC68B1CC5FB5C004F51CB /* Independent Work.xcodeproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "wrapper.pb-project"; name = "Independent Work.xcodeproj"; path = "../Independent Work.xcodeproj"; sourceTree = "<group>"; };
 		87CF00531CB6DA5400634A6C /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		87FE48721CDC21D800CA2C4E /* TranslateQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslateQuery.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +109,9 @@
 			children = (
 				871FFBBD1CB210EB000784BD /* FirstViewController.swift */,
 				871FFBBB1CB210EB000784BD /* AppDelegate.swift */,
-				876EC68B1CC5FB5C004F51CB /* TranslateQuery.swift */,
+				876EC68B1CC5FB5C004F51CB /* Independent Work.xcodeproj */,
 				871FFBBF1CB210EB000784BD /* SecondViewController.swift */,
+				87FE48721CDC21D800CA2C4E /* TranslateQuery.swift */,
 				871FFBC11CB210EB000784BD /* Main.storyboard */,
 				876EC6851CC49527004F51CB /* FifthViewController.swift */,
 				87CF00531CB6DA5400634A6C /* FourthViewController.swift */,
@@ -135,6 +138,11 @@
 				871FFBDF1CB210EB000784BD /* Info.plist */,
 			);
 			path = "Independent WorkUITests";
+			sourceTree = "<group>";
+		};
+		87A7FAB41CD7084700BC1134 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +238,12 @@
 			mainGroup = 871FFBAF1CB210EB000784BD;
 			productRefGroup = 871FFBB91CB210EB000784BD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 87A7FAB41CD7084700BC1134 /* Products */;
+					ProjectRef = 876EC68B1CC5FB5C004F51CB /* Independent Work.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				871FFBB71CB210EB000784BD /* Independent Work */,
@@ -276,7 +290,8 @@
 				871FFBBC1CB210EB000784BD /* AppDelegate.swift in Sources */,
 				871FFBBE1CB210EB000784BD /* FirstViewController.swift in Sources */,
 				87CF00541CB6DA5400634A6C /* FourthViewController.swift in Sources */,
-				876EC68C1CC5FB5C004F51CB /* TranslateQuery.swift in Sources */,
+				876EC68C1CC5FB5C004F51CB /* Independent Work.xcodeproj in Sources */,
+				87FE48731CDC21D800CA2C4E /* TranslateQuery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

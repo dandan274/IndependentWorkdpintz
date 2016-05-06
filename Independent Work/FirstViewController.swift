@@ -34,7 +34,7 @@ class FirstViewController: UIViewController, UITableViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        wordList = ["sun", "moon", "sky"]
         NSUserDefaults.standardUserDefaults().setObject(wordList, forKey: "words")
         
         if NSUserDefaults.standardUserDefaults().objectForKey("words") != nil
